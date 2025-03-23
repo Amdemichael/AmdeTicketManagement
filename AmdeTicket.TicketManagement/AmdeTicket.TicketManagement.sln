@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92555B0C-14A6-4E79-B93E-A62BD86AEA1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9E3EE4A6-9656-45D5-BE0D-8525AE872F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{31B18CD4-A05F-40B2-AB90-8FF6979D34FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E1301F43-B98A-4E25-8D1E-90AB9D1592F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D917A2D2-1569-43D7-A2E3-DE0544CA1CB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C7DBBD8B-23C3-4024-B762-3A3168F5C230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmdeTicket.TicketManagement.Domain", "AmdeTicket.TicketManagement.Domain\AmdeTicket.TicketManagement.Domain.csproj", "{6DAA4860-225F-4457-AF57-3409ACB96893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmdeTicket.TicketManagement.Application", "AmdeTicket.TicketManagement.Application\AmdeTicket.TicketManagement.Application.csproj", "{937C00C9-9C78-4FC3-969C-AA5D898B5A7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DAA4860-225F-4457-AF57-3409ACB96893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAA4860-225F-4457-AF57-3409ACB96893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAA4860-225F-4457-AF57-3409ACB96893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAA4860-225F-4457-AF57-3409ACB96893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937C00C9-9C78-4FC3-969C-AA5D898B5A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937C00C9-9C78-4FC3-969C-AA5D898B5A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937C00C9-9C78-4FC3-969C-AA5D898B5A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937C00C9-9C78-4FC3-969C-AA5D898B5A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31B18CD4-A05F-40B2-AB90-8FF6979D34FE} = {92555B0C-14A6-4E79-B93E-A62BD86AEA1E}
+		{E1301F43-B98A-4E25-8D1E-90AB9D1592F6} = {92555B0C-14A6-4E79-B93E-A62BD86AEA1E}
+		{D917A2D2-1569-43D7-A2E3-DE0544CA1CB3} = {92555B0C-14A6-4E79-B93E-A62BD86AEA1E}
+		{C7DBBD8B-23C3-4024-B762-3A3168F5C230} = {92555B0C-14A6-4E79-B93E-A62BD86AEA1E}
+		{6DAA4860-225F-4457-AF57-3409ACB96893} = {C7DBBD8B-23C3-4024-B762-3A3168F5C230}
+		{937C00C9-9C78-4FC3-969C-AA5D898B5A7F} = {C7DBBD8B-23C3-4024-B762-3A3168F5C230}
+	EndGlobalSection
+EndGlobal
